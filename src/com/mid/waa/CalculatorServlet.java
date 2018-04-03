@@ -26,6 +26,8 @@ public class CalculatorServlet extends HttpServlet {
         String operator=req.getParameter("operator");
         HttpSession session=req.getSession();
         List<String > history=(List<String>)session.getAttribute("historys");
+
+
         if(history==null)
             history=new ArrayList<>();
         Calculator calculator= new Calculator();

@@ -4,11 +4,15 @@ public class Person {
     private String key;
     private String firstName;
     private String lastName;
-    public Person(String firstName,String  lastName,String  key){
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.key=key;
 
+    public Person() {
+
+    }
+
+    public Person(String key, String firstName, String lastName) {
+        this.key = key;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
     public String getKey() {
