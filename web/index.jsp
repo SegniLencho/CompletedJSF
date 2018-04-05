@@ -16,5 +16,8 @@
   <h4> Are you human?  Use JSF for calculator </h4> <a href="/calculateMe" > Use JSF</a>
   <h4> Are you human?  Use JSP to perform stack </h4> <a href="/stack" > Use JSF</a>
   <h4> Are you human?  Create From With out JSP Code </h4> <a href="/servletOnly" > Just Servlet</a>
+  <h4> Are you human?  Use Param </h4> <a href="/params" > ParamBased </a>
+  <h4> Are you human?  Use Param </h4> <a href="paramBased.jsp" > ParamBased </a>
+  <h4> Are you human?  Use Customized Param </h4> <a href="customized.jsp" > ParamBased </a>
   </body>
 </html>
